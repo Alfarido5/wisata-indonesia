@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisata"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Wisata" >
+        <activity android:name="com.example.wisata.About" />
+        <activity android:name="com.example.wisata.Kampoong" />
+        <activity android:name="com.example.wisata.Pondok" />
+        <activity android:name="com.example.wisata.Vihara" />
+        <activity android:name="com.example.wisata.Gereja" />
+        <activity android:name="com.example.wisata.Masjid" />
+        <activity android:name="com.example.wisata.WisataReligi" />
+        <activity android:name="com.example.wisata.WisataKuliner" />
+        <activity android:name="com.example.wisata.Pustaka" />
+        <activity android:name="com.example.wisata.KebunBinatang" />
+        <activity android:name="com.example.wisata.Museum" />
+        <activity android:name="com.example.wisata.WisataEdukasi" />
+        <activity android:name="com.example.wisata.RiauFantasi" />
+        <activity android:name="com.example.wisata.Okura" />
+        <activity android:name="com.example.wisata.HutanRaya" />
+        <activity android:name="com.example.wisata.AlamMayang" />
+        <activity android:name="com.example.wisata.AirTerjun" />
+        <activity android:name="com.example.wisata.WisataAlam" />
+        <activity android:name="com.example.wisata.Danau" />
+        <activity android:name="com.example.wisata.Alam" />
+        <activity android:name="com.example.wisata.MenuUtama" />
+        <activity android:name="com.example.wisata.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
